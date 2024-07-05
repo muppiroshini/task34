@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            gap:10px;
+            justify-content: center;
+        }
+        img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            display: none;
+        }
+        .item1{
+            width:200px;
+            height: 200px;
+            background-color: lightpink;
+            cursor: pointer;
+        }
+        .item2{
+            width:200px;
+            height: 200px;
+            background-color: lightpink;
+            cursor: pointer;
+        }
+        .item3{
+            width:200px;
+            height: 200px;
+            background-color: lightpink;
+            cursor: pointer;
+        }
+        .item4{
+            width:200px;
+            height: 200px;
+            background-color: lightpink;
+            cursor: pointer;
+        }
+        .item1:hover >#r , .item1:active>img{
+            display: block;
+        }
+        .item1:active>#r{
+            display: none;
+        }
+        #r{
+            color: blue;
+            text-align: center;
+            position: relative;
+            top:60px;
+        }
+        #r1{
+            color: blue;
+            text-align: center;
+            position: relative;
+            top:60px;
+        }
+        .item2:hover>#r1 , .item2:active>img{
+            display: block;
+        }
+        .item2:active>#r1{
+            display: none;
+        }
+        #r2{
+            color: blue;
+            text-align: center;
+            position: relative;
+            top:60px;
+        }
+        .item3:hover >#r2 , .item3:active>img{
+            display: block;
+        }
+        .item3:active>#r2{
+            display: none;
+        }
+        #r3{
+            color: blue;
+            text-align: center;
+            position: relative;
+            top:60px;
+        }
+        .item4:hover >#r3 , .item4:active>img{
+            display: block;
+        }
+        .item4:active>#r3{
+            display: none;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 style="color: darkcyan;text-align: center;">pseudo class</h1><hr>
+    <div class="container">
+        <div class="item1">
+            <h2 id="r">cat</h2>
+            <img src="https://shorturl.at/Froof">
+        </div>
+        <div class="item2">
+            <h2 id="r1">Dog</h2>
+            <img src="https://t.ly/6rYPQ">
+        </div>
+        <div class="item3">
+            <h2 id="r2">parrot</h2>
+            <img src="https://shorturl.at/aE0Rq">
+        </div>
+        <div class="item4">
+            <h2 id="r3">elephant</h2>
+            <img src="https://shorturl.at/Ub9WY">
+        </div>
+    </div>
+</body>
+</html>

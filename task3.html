@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(225, 216, 123);
+        }
+        button{
+            color: darkred;
+            cursor: pointer;
+        }
+        button:hover{
+            color: darksalmon;
+        }
+        img{
+            display: none;
+            position: absolute;
+            top: 200px;
+            width: 200px;
+            height: 200px;
+            margin-left: 20px;
+        }
+        .k1:hover > img{
+            display: block;
+        }
+        div{
+            display: flex;
+            gap: 10px;
+            margin-top: 50px;
+            position: relative;
+            margin-left: 200px;
+        }
+        .k2:hover > img{
+            display: block;
+        }
+        .k3:hover > img{
+            display: block;
+        }
+        .k4:hover > img{
+            display: block;
+        }
+        h1{
+            color: brown;
+            align-content: center;
+            justify-content: center;
+            margin-left: 200px;
+        }
+        </style>
+</head>
+<body align="center">
+    <h1 >pseudo class and elements</h1>
+    <div class="k">
+        <div class="k1">
+        <button >Cat</button>
+        <img src="https://shorturl.at/Froof">
+        </div>
+        <div class="k2">
+        <button >Dog</button>
+        <img src="https://t.ly/6rYPQ">
+        </div>
+        <div class="k3">
+        <button id="k3">Parrot</button>
+        <img src="https://shorturl.at/aE0Rq">
+        </div>
+        <div class="k4">
+        <button id="k4">Elephant</button>
+        <img src="https://shorturl.at/Ub9WY">
+        </div>
+    </div>
+</body>
+</html>
